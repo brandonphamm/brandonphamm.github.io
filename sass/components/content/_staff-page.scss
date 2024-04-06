@@ -1,0 +1,25 @@
+.staff-wrapper h2 {
+  margin: 0;
+  text-decoration: underline;
+}
+.staff-wrapper {
+  margin-bottom: 3rem;
+}
+.staff-item h3 {
+  margin-bottom: 0.5rem;
+}
+@media only screen and (min-width: 37.5em) {
+  .staff-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .staff-wrapper h2 {
+    width: 100%;
+  }
+  .staff-item {
+    width: 48%;
+    margin: 0;
+  }
+}

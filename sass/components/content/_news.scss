@@ -1,0 +1,31 @@
+.entry-meta {
+  margin-bottom: 0.5rem;
+}
+
+h2.entry-title {
+  margin-bottom: 0.5rem;
+}
+
+.post-thumbnail img {
+  display: block;
+}
+
+.post a.post-thumbnail img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+span.cat-links,
+span.tags-links,
+span.comments-link {
+  display: block;
+}
+
+@media only screen and (min-width: 50em) {
+  span.cat-links,
+  span.tags-links,
+  span.comments-link {
+    display: inline-block;
+    margin-right: 3rem;
+  }
+}

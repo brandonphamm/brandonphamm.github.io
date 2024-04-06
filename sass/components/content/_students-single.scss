@@ -1,0 +1,56 @@
+.site-main-students-single{
+	grid-area: main;
+    margin-top: 55px;
+    padding: 0 1rem;
+}
+
+//button color
+.site-main-students-single .wp-block-button__link {
+	color: white;
+	font-weight: 700;
+}
+
+// meeting other students styling
+.student-p ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.site-main-students-single li {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1rem;
+}
+
+// entire page layout
+
+.site-main-students-single img {
+	height: auto;
+    display: inline;
+    float: right;
+    margin-right: 1.5em;
+    margin-bottom: 0rem;
+	margin-left: 2rem;
+    max-width: 300px
+}
+
+// changed the h3 into p because it made the margins look better and styled it into a h3. ?probably better to leave it as a h3 for seo?
+.student-p p {
+	font-size: 1.2em;
+	font-weight: 700;
+	margin-top: 1rem;
+}
+
+//Mobile View
+
+@media (max-width: 600px) {
+	.site-main-students-single img {
+		display: block;
+		float: none;
+		margin-left: 0;
+		margin-bottom: 1.5rem;
+	
+	}
+	}

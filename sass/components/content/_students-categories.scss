@@ -1,0 +1,66 @@
+.page-header-students {
+	grid-area: header;
+}
+
+.site-main-students {
+	grid-area: main;
+	margin-top: 55px;
+	padding: 0 1rem;
+}
+
+// .widget-area {
+// 	grid-area: sidebar;
+// }
+
+.site-footer {
+	grid-area: footer;
+
+}
+
+//h2 a typography
+
+.site-main-students h2  {
+	color: #003c71;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.site-main-students h2, a {
+	text-decoration: none;
+}
+
+.site-main-students h2:hover,
+a:hover  {
+    text-decoration: underline;
+}
+
+// grey button portfolio typography
+
+.site-main-students .wp-block-button__link {
+	color: white;
+	font-weight: 700;
+}
+
+
+//image and text alignment 
+
+.site-main-students img {
+	height: auto;
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+
+}
+
+//Mobile View
+@media (max-width: 600px) {
+	.site-main-students img {
+	display: block;
+		float: none;
+		margin-left: 0;
+		margin-bottom: 1.5rem;
+	
+	}
+	}

@@ -1,0 +1,49 @@
+// css for wide width and full width block editors
+// source https://weblines.com.au/block-editor-wide-alignment-full-width/
+.entry-content .alignwide {
+    margin-left  : -80px;
+    margin-right : -80px;
+}
+.entry-content .alignfull {
+    margin-left  : calc( -100vw / 2 + 100% / 2 );
+    margin-right : calc( -100vw / 2 + 100% / 2 );
+    max-width    : 100vw;
+}
+.alignfull img {
+    width: 100vw;
+}
+
+//default setting
+.site-main-front-page{
+    grid-area: main;
+    margin-top: 55px;
+    padding: 0 1rem;
+}
+
+//main h1 gone to show a custom one
+.site-main-front-page h1.entry-title {
+    display: none;
+}
+
+// Recent News styling
+
+.site-main-front-page .wp-block-latest-posts__featured-image img {
+    z-index: -10;
+    position: relative;
+    display: block;
+    
+}
+
+.site-main-front-page  a.wp-block-latest-posts__post-title  {
+	display: block;
+	z-index: 100;
+	width: 100%;
+	margin: 0;
+	padding: 1em;
+	font-size: 1em;
+	text-align: center;
+	background: rgba(255,255,255,.8);
+    margin-top: -5rem;
+ 
+    
+}

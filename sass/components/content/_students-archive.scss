@@ -1,0 +1,42 @@
+.site-main-students-archive {
+	grid-area: main;
+    margin-top: 55px;
+    padding: 0 1rem;
+	}
+.student-wrapper {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.site-main-students-archive article {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.site-main-students-archive img {
+	width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media  (max-width:860px) {
+	.student-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-content: center;
+		flex-direction: column;
+	}
+
+	.site-main-students-archive article {
+		width: 50%;
+		margin: 0 0 3rem;
+	}
+	
+}
+
+
+
+
+

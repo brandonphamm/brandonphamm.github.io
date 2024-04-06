@@ -1,0 +1,42 @@
+//default setting
+.site-main-schedule{
+    grid-area: main;
+    margin-top: 55px;
+    padding: 0 1rem;
+}
+
+//main h1 gone to show a custom one
+.site-main-schedule h1.entry-title {
+    display: none;
+}
+
+
+.weekly-course p {
+	text-align: center;
+}
+
+.site-main-schedule th {
+	display: table-cell;
+    width: 33.33%;
+    padding: 2rem;
+	text-align: left;
+	background-color: #e0e0e0
+}
+
+.site-main-schedule td {
+	display: table-cell;
+    width: 33.33%;
+    padding: 2rem;
+}
+
+.site-main-schedule tr:nth-child(odd) {
+    background-color: #f0f0f0; /* Example background color for odd rows */
+}
+
+.site-main-schedule tr:nth-child(even) {
+    background-color: #e0e0e0; /* Example background color for even rows */
+}
+
+
+
+

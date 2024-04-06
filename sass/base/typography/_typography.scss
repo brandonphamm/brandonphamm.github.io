@@ -1,0 +1,24 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+  color: $color__text-main;
+  font-family: $font__main;
+  font-size: 1rem;
+  line-height: $font__line-height-body;
+}
+
+a,
+a:visited {
+  color: #003c71;
+  text-decoration: none;
+  font-weight: 700;
+}
+p {
+  font-weight: 400;
+}
+
+@import "headings";
+@import "copy";
